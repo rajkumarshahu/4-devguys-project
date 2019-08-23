@@ -120,6 +120,11 @@ h4{
   text-shadow: 0 0 2px #102542;
 }
 
+#confirm-btn, #close-btn, #submit-btn{
+  border-radius: 0px;
+  float: right;
+}
+
 
  /*
  media queries starts here
