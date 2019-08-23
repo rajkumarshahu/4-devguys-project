@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/four-devguys/4-devguys-project.git"
+    "url": "https://github.com/rajkumarshahu/4-devguys-project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/four-devguys/4-devguys-project/issues"
+    "url": "https://github.com/rajkumarshahu/4-devguys-project/issues"
   },
-  "homepage": "https://github.com/four-devguys/4-devguys-project#readme",
+  "homepage": "https://github.com/rajkumarshahu/4-devguys-project#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
