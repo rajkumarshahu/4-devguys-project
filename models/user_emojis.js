@@ -1,6 +1,10 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const user_emojis = sequelize.define('user_emojis', {
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true
+    },
     user_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -24,8 +28,6 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   user_emojis.associate = function(models) {
     // associations can be defined here
-    //user_emojis.belongsToMany(users);
-    //user_emojis.belongsToMany(emojis);
   };
   return user_emojis;
 };
